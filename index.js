@@ -1,1 +1,0 @@
-console.log('I am making API for Cyclone Bot List.');
