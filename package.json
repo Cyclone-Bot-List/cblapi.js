@@ -1,0 +1,20 @@
+{
+  "name": "API",
+  "version": "1.0.0",
+  "description": "Dont know how to make but i will make separate API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cyclone-Bot-List/API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cyclone-Bot-List/API/issues"
+  },
+  "homepage": "https://github.com/Cyclone-Bot-List/API#readme"
+}
