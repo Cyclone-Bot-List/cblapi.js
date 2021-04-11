@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Cyclone-Bot-List/API/issues"
   },
-  "homepage": "https://github.com/Cyclone-Bot-List/API#readme"
+  "homepage": "https://github.com/Cyclone-Bot-List/API#readme",
+  "devDependencies": {
+    "typescript": "^4.2.4"
+  }
 }
