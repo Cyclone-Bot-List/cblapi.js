@@ -1,6 +1,6 @@
 {
-  "name": "api-cbl",
-  "version": "1.0.0",
+  "name": "cblapi.js",
+  "version": "1.0.1",
   "description": "Dont know how to make but i will make separate API.",
   "main": "index.js",
   "scripts": {

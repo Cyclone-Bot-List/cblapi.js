@@ -10,3 +10,9 @@ export interface BotInfo {
     prefix: string
      
 }
+
+export interface BotStats {
+}
+
+export interface UserInfo {
+}
