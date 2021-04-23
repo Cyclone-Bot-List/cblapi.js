@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npm ci && rm -rf ./dist && tsc"
+    "build": "npm ci && del /f dist && tsc"
   },
   "repository": {
     "type": "git",
