@@ -7,6 +7,6 @@
 You can install the official CBL API via
 `later` or `later`
 
-## Examples
+## Examples 👻
 
 Later :)
