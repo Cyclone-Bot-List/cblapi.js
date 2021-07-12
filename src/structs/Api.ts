@@ -25,7 +25,7 @@ export class Api extends EventEmitter {
         if (this.options.token) headers.set('Authorization', this.options.token)
         if (method !== 'GET') headers.set('Content-Type', 'application/json')
 
-        let url = `https://cyclonebots.xyz/api/${path}`
+        let url = `https://cyclonebotlist.xyz/api/${path}`
 
         //@ts-ignore
         if (body && method == 'GET') url += `?${qs.stringify(body)}`
