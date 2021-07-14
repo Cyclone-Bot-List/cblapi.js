@@ -1,6 +1,6 @@
 {
   "name": "cblapi.js",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "description": "Dont know how to make but i will make separate API.",
   "main": "index.js",
   "scripts": {
@@ -10,15 +10,26 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Cyclone-Bot-List/API.git"
+    "url": "git+https://github.com/Cyclone-Bot-List/cblapi.js.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "api",
+    "discord",
+    "bot",
+    "discordjs",
+    "cyclone",
+    "v1",
+    "npm",
+    "github",
+    "amishshah",
+    "top.gg"
+  ],
+  "author": "DevMirza",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Cyclone-Bot-List/API/issues"
+    "url": "https://github.com/Cyclone-Bot-List/cblapi.js/issues"
   },
-  "homepage": "https://github.com/Cyclone-Bot-List/API#readme",
+  "homepage": "https://github.com/Cyclone-Bot-List/cblapi.js#readme",
   "devDependencies": {
     "@types/express": "^4.17.11",
     "@types/node": "^14.14.37",
