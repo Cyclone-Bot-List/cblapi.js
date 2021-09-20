@@ -1,3 +1,4 @@
+import { Response } from 'node-fetch'
 const tips = {
     401: "You need a token for this endpoint",
     403: "You don't have access to this endpoint."
@@ -10,13 +11,14 @@ export default class CyclonebotsAPIError extends Error {
     /**
      * Posiible response from Request
      */
-    public response?: any
+    public response?: Response;
 
-    name = 'Cyclonebots.xyz API Error'
-
-    constructor (code: number, text: string, response?: any) {
-        super(`${code} ${text}${tips[code] ? ` (${tips[code]})` : ``}`)
-
-        this.response = response
+    constructor (code: number, text: string, response: Response) {
+        if (code in tips) {
+            super(`${code} ${text} (${tips[code as keyof typeof tips]})`);
+        } else {
+            super(`${code} ${text}`);
+        }
+        this.response = response;
     }
 }

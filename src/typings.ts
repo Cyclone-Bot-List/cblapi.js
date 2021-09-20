@@ -8,10 +8,20 @@ export interface BotInfo {
     username: string
     avatar?: string
     prefix: string
+    discriminator: string
+    tags: string[]
+    website?: string 
+    support?: string
+    github?: string
+    owners: SnowFlake[]
      
 }
 
 export interface BotStats {
+    serverCount?: number;
+    shards?: number[];
+    shardId: number;
+    shardCount: number;
 }
 
 export interface UserInfo {
