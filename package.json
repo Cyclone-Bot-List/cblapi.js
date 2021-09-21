@@ -4,9 +4,13 @@
   "description": "Dont know how to make but i will make separate API.",
   "main": "index.js",
   "scripts": {
-    "build": "npm ci && tsc",
-    "docs": "npm run build && npm run md",
-    "md": "jsdoc2md ./dist/structs/Api.js > ./docs/Api.md"
+    "build": "tsc",
+    "build:ci": "npm i --also=dev && tsc",
+    "docs": "typedoc",
+    "prepublishOnly": "npm run build:ci",
+    "lint": "eslint src/**/*.ts",
+    "lint:ci": "eslint --output-file eslint_report.json --format json src/**/*.ts",
+    "prepare": "npx husky install"
   },
   "repository": {
     "type": "git",
